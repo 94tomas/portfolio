@@ -55,6 +55,51 @@ export default {
         return {
             portfolio: [
                 {
+                    title: 'Furcios Drink',
+                    imgFront: 'furcios/home.png',
+                    imgLeft: 'furcios/image1.png',
+                    imgRight: 'furcios/image2.png',
+                    description: 'Como freelancer para la empresa StartWeb trabaje en un sistema delivery para un negocio (Furcios Drink), el cual consta de dos apps moviles y una panel de administración.',
+                    linkSite: 'http://furciosdrinkmarket.com/',
+                    tools: ['HTML5', 'Javascript', 'VueJs', 'Vuetify', 'Quasar', 'Cordova', 'PHP', 'mySQL', 'Laravel', 'Api-Rest', 'Google-maps', 'pusher']
+                },
+                {
+                    title: 'Ondeliver',
+                    imgFront: 'ondeliver/home.png',
+                    imgLeft: 'ondeliver/image1.png',
+                    imgRight: 'ondeliver/image2.png',
+                    description: 'Como freelancer para la empresa StartWeb trabaje en un sistema delivery para varios negocios (Ondeliver), el cual consta de dos apps moviles y una panel de administración.',
+                    linkSite: 'https://app.ondeliver.com.bo/',
+                    tools: ['HTML5', 'Javascript', 'VueJs', 'Vuetify', 'Quasar', 'Cordova', 'PHP', 'mySQL', 'Laravel', 'Api-Rest', 'Google-maps', 'socket.io']
+                },
+                {
+                    title: 'Tiendika',
+                    imgFront: 'tiendika/home.png',
+                    imgLeft: 'tiendika/image1.png',
+                    imgRight: 'tiendika/image2.png',
+                    description: 'Como freelancer para la empresa StartWeb trabaje en el sitio Tiendika, el cual es una plataforma para que los negocios puedan hacer conocer sus productos.',
+                    linkSite: 'https://tiendika.com/',
+                    tools: ['HTML5', 'Javascript', 'VueJs', 'Vuetify', 'PHP', 'mySQL', 'Laravel']
+                },
+                {
+                    title: 'frases de famosos - famous phrases',
+                    imgFront: 'frases/image1.png',
+                    imgLeft: 'frases/home.png',
+                    imgRight: 'frases/image2.png',
+                    description: 'Independientemente desarrolle la aplicación disponible en playStore de Frases Famosas.',
+                    linkSite: 'https://play.google.com/store/apps/details?id=frases.famosos.app',
+                    tools: ['HTML5', 'Javascript', 'VueJs', 'Quasar', 'Cordova', 'PHP', 'mySQL', 'Laravel', 'ApiRest']
+                },
+                {
+                    title: 'Sisbegn',
+                    imgFront: 'sisbegn/home.png',
+                    imgLeft: 'sisbegn/panel.png',
+                    imgRight: 'sisbegn/panel.png',
+                    description: 'Se trabajo en el sistema para la matriculación de estudiantes',
+                    linkSite: 'https://sisbegn.herokuapp.com/login',
+                    tools: ['HTML5', 'Javascript', 'jQuery', 'PHP', 'mySQL', 'Laravel']
+                },
+                {
                     title: 'nexos LMS',
                     imgFront: 'nexos/homepage-nexos.png',
                     imgLeft: 'nexos/contact.png',
@@ -72,15 +117,6 @@ export default {
                     linkSite: 'https://94tomas.github.io/vikinger/',
                     tools: ['HTML5', 'CSS3', 'jQuery']
                 },
-                // {
-                //     title: 'Mi sitio web',
-                //     imgFront: 'mysite/cv.png',
-                //     imgLeft: 'mysite/cv2.png',
-                //     imgRight: 'mysite/cv.png',
-                //     description: 'Mi portafolio hecho para mostrar mis habilidades y aumentar mis conocimientos en el mundo del desarrollo',
-                //     linkSite: 'javascript',
-                //     tools: ['HTML5', 'SASS', 'VueJs', 'PWA']
-                // },
                 {
                     title: 'fivo',
                     imgFront: 'fivo/fivo.png',
@@ -171,7 +207,7 @@ export default {
             }
             img {
                 display: block;
-                max-width: 100%;
+                width: 100%;
                 align-self: center;
                 transition: 300ms all cubic-bezier(.4,0,.2,1);
                 visibility: visible;

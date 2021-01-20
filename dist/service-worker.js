@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/portfolio/precache-manifest.9b2b1c89b96251c21abcebfd6c3bf820.js"
+  "/portfolio/precache-manifest.fb4dd467bdf0dbf36b9ecc2dd8f5191f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dev_edson"});

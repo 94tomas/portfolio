@@ -1,15 +1,15 @@
 <template>
-  <div class="home">
-    <BannerHome></BannerHome>
+    <div class="home">
+        <BannerHome></BannerHome>
 
-    <Intro></Intro>
+        <Intro></Intro>
 
-    <About></About>
+        <About></About>
 
-    <Portfolio></Portfolio>
+        <Portfolio></Portfolio>
 
-    <Contact></Contact>
-  </div>
+        <Contact></Contact>
+    </div>
 </template>
 
 <script>

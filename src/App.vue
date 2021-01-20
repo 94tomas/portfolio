@@ -3,7 +3,18 @@
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
     <Navigation></Navigation>
-    <router-view/>
+    <!-- <router-view/> -->
+
+    <BannerHome></BannerHome>
+
+    <Intro></Intro>
+
+    <About></About>
+
+    <Portfolio></Portfolio>
+
+    <Contact></Contact>
+
     <Footer></Footer>
 
     <notifications group="contact" position="bottom left" class="c-notification"/>
@@ -11,11 +22,21 @@
 </template>
 <script>
 import Navigation from '@/components/layout/Navigation.vue'
+import BannerHome from '@/components/banners/BannerHome.vue'
+import Intro from '@/components/sections/Intro.vue'
+import About from '@/components/sections/SecAbout.vue'
+import Portfolio from '@/components/sections/Portfolio.vue'
+import Contact from '@/components/sections/Contact.vue'
 import Footer from '@/components/layout/Footer.vue'
 export default {
   name: 'Homepage',
   components: {
     Navigation,
+    BannerHome,
+    Intro,
+    About,
+    Portfolio,
+    Contact,
     Footer
   }
 }

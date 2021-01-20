@@ -1,6 +1,6 @@
 <template>
     <div class="sec-intro text-center container">
-        <h3>programador<span> web</span></h3>
+        <h3>programador<span> web y móvil</span></h3>
         <!-- <h3><vue-typer
                         :text='["programador"]'
                         :repeat='Infinity'
