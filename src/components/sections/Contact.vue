@@ -7,7 +7,7 @@
 
                     <div class="datas-contact">
                         <h4 class="main-title">Datos de Contacto</h4>
-                        <p>No dude en buscar soluciones a sus ideas de pryectos, contactate conmigo y te respondere lo mas antes posible.</p>
+                        <p>No dude en buscar soluciones a sus ideas de proyectos, contáctate conmigo y te respondere lo mas antes posible.</p>
                         <ul class="list-icon">
                             <li>
                                 <b-icon icon="phone"></b-icon>

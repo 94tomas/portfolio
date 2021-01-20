@@ -79,7 +79,7 @@ export default {
                     imgRight: 'mysite/cv.png',
                     description: 'Mi portafolio hecho para mostrar mis habilidades y aumentar mis conocimientos en el mundo del desarrollo',
                     linkSite: 'javascript',
-                    tools: ['HTML5', 'SASS', 'VueJs']
+                    tools: ['HTML5', 'SASS', 'VueJs', 'PWA']
                 },
                 {
                     title: 'fivo',

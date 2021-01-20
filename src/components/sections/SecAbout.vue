@@ -1,8 +1,8 @@
 <template>
     <div id="about">
         <div class="sec-about">
-            <div role="tablist" class="container">
-                <p class="text-center">¡Hola! Mi nombre es Edson Arando y soy un Freelance Developer (frontend + backend) especializado en programación web y desarrollos avanzados, me considero Diseñador web, Programador web.</p>
+            <div role="tablist" class="container" title="Edson Tomas Arando Puma">
+                <p class="text-center">¡Hola! Mi nombre es Edson y soy un Freelance Developer (frontend + backend) especializado en programación web y desarrollos avanzados, me considero Diseñador web, Programador web.</p>
                 <p class="text-center mb-0">Te asesoramos sobre cualquier idea y te ayudaremos a encontrar un resultado justo a tu medida para tus proyectos.</p>
             </div>
         </div>
