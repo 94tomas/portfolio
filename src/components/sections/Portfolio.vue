@@ -4,7 +4,7 @@
             <h3 class="text-center mb-5"><span>Mi</span> portafolio</h3>
             <b-row class="justify-content-center">
                 <!-- portfolio -->
-                <b-col sm="6" md="4" class="mb-5" v-for="(item, index) in portfolio">
+                <b-col sm="6" md="4" class="mb-5" v-for="(item, index) in portfolio" :key="index">
                     <a href="javascript:;" 
                     class="website-pack-preview"
                     variant="primary"
@@ -37,7 +37,7 @@
                         <a :href="modalPortfolio.MlinkSite" target="blank">Visitar sitio</a>
                         <h6>Herramientas utilizadas</h6>
                         <ul>
-                            <li v-for="tool in modalPortfolio.Mtools">
+                            <li v-for="(tool, index) in modalPortfolio.Mtools" :key="index">
                                 {{tool}}
                             </li>
                         </ul>
@@ -60,7 +60,7 @@ export default {
                     imgLeft: 'nexos/contact.png',
                     imgRight: 'nexos/certificate.png',
                     description: 'Sistemas de gestión de aprendizaje para la empresa NEXOS S.R.L. que apoya al sector de la educación a dicha empresa',
-                    linkSite: 'https://nexoslms.000webhostapp.com/',
+                    linkSite: '#',
                     tools: ['HTML5', 'SASS', 'Javascript', 'jQuery', 'PHP', 'mySQL', 'Laravel']
                 },
                 {
@@ -72,15 +72,15 @@ export default {
                     linkSite: 'https://94tomas.github.io/vikinger/',
                     tools: ['HTML5', 'CSS3', 'jQuery']
                 },
-                {
-                    title: 'Mi sitio web',
-                    imgFront: 'mysite/cv.png',
-                    imgLeft: 'mysite/cv2.png',
-                    imgRight: 'mysite/cv.png',
-                    description: 'Mi portafolio hecho para mostrar mis habilidades y aumentar mis conocimientos en el mundo del desarrollo',
-                    linkSite: 'javascript',
-                    tools: ['HTML5', 'SASS', 'VueJs', 'PWA']
-                },
+                // {
+                //     title: 'Mi sitio web',
+                //     imgFront: 'mysite/cv.png',
+                //     imgLeft: 'mysite/cv2.png',
+                //     imgRight: 'mysite/cv.png',
+                //     description: 'Mi portafolio hecho para mostrar mis habilidades y aumentar mis conocimientos en el mundo del desarrollo',
+                //     linkSite: 'javascript',
+                //     tools: ['HTML5', 'SASS', 'VueJs', 'PWA']
+                // },
                 {
                     title: 'fivo',
                     imgFront: 'fivo/fivo.png',
