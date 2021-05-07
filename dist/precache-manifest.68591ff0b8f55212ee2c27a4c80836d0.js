@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5f8fd9bc9b92b8e2b8f",
+    "revision": "976ad70d93ebdb3e7d9f",
     "url": "/portfolio/css/app.68fb0c2d.css"
   },
   {
@@ -132,7 +132,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/img/vikinger.07d98ba6.png"
   },
   {
-    "revision": "4c4e60163347d290d84012153ef1b4f5",
+    "revision": "b43c518253db69fa3e975a728f43e184",
     "url": "/portfolio/index.html"
   },
   {
@@ -140,8 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/js/about.e97fb03c.js"
   },
   {
-    "revision": "f5f8fd9bc9b92b8e2b8f",
-    "url": "/portfolio/js/app.c11c5a60.js"
+    "revision": "976ad70d93ebdb3e7d9f",
+    "url": "/portfolio/js/app.cc74eda9.js"
   },
   {
     "revision": "fe766434baa8d72f598c",
